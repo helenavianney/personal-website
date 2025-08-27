@@ -55,33 +55,42 @@ nav {
 }
 /* End Navbar*/
 
-.about-container {
-    color: #ECEFCA;
-    width: 85vw;
-    margin: 3rem auto;
+.contact-card {
+    width: 70vw;
+    margin: 5rem auto;
+    background-color: #94B4C1;
+    text-align: center;
+    padding: 48px 32px;
+    border-radius: 20px;
     line-height: 1.6;
 }
 
-.title-about h2 {
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin-bottom: 24px;
-    border-bottom: 2px solid #ECEFCA;
-    width: fit-content;
+.title-contact h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #213448;
 }
 
-.description-about {
-    padding-left: 16px;
+.item-contact {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
 }
 
-.timeline h4 {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 8px;
-    margin-top: 24px;
+.item-contact a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #ECEFCA;
+    border-radius: 50%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
 }
 
-.timeline p {
-    margin-bottom: 20px;
-    line-height: 1.7;
+.item-contact a:hover {
+    transform: scale(1.1);
+    background-color: #547792;
 }

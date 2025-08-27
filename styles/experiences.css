@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #213448;
+}
+
+/* Navbar */
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 4px 24px;
+    width: fit-content;
+    border-radius: 24px;
+    margin-top: 8px;
+}
+
+.list-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    font-weight: 600;
+}
+
+.list-navbar li {
+    list-style-type: none;
+    padding: 4px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: width 0.3s ease-in-out, background-color 0.3s linear 0.1s;
+}
+
+.list-navbar li:hover {
+    background-color: #547792;
+}
+
+.list-navbar a {
+    text-decoration: none;
+    color: white;
+}
+/* End Navbar*/
+
+.experiences-container {
+    color: #ECEFCA;
+    width: 85vw;
+    margin: 3rem auto;
+    line-height: 1.6;
+}
+
+.title-experiences h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+    border-bottom: 2px solid #ECEFCA;
+    width: fit-content;
+}
+
+.description-experiences {
+    padding-left: 16px;
+}
+
+.timeline h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+.timeline p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
