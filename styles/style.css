@@ -86,6 +86,7 @@ nav {
 @media screen and (max-width: 768px) {
     .profile-card {
         width: 90vw;
+        grid-template-columns: 1fr;
     }
     .img-profile {
         width: 200px;
